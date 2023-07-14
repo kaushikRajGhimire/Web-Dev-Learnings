@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.abc
+{
+    width:15%;
+    height:40%;
+    background-color:orange;
+    margin-left:40%;
+    margin-top:5%;
+    
+    padding:20px;  /*top right bottom left right and bottom have no use but cant leave them alone! */
+}
+.ig{
+    width:80%;
+    height:80%;
+    margin-left: 10%;
+    margin-top:13%;
+    /* yo image lai thulo frame tyo div ho tehi bata margin ko calculation huncha ra width/height pani div wala bata nai calculate huncha!!!! */
+}  
+.car1{
+    /* jun ma position absolute huncha tyo mathi uthcha ani arko tala ko le tesko thau oogatcha,,, hamle mathi bata herne bhako bhayera we only see the upper one */ /* size sochera halnu parcha tei bhayera */
+    width:200px;
+    height:200px;
+    background-color: red;
+    
+    
+
+}
+/* position absolute halera tespachi yeta uta garna milcha teslau like top:10% left:40% etc. */
+.car2
+{
+    position:absolute;
+    width:90px;
+    height:90px;
+    background-color: blue;     /* blue mathi uthyo ani size thulo cha yeloow yesko ppurano thau ma aayo */
+}
+.car3
+{                                        /* position absolute wala ko child le pani thulo mathi utheko respect kai ma size haru line gacha i.e. big uppar hai toh wo relative ka bhi kam karta hai */
+    
+    position:relative;  
+    width:70px;
+    height:80px;
+    background-color: greenyellow;
+}
+
+/* position relative ko doubt sodhne narayan bhai or dai lai ani dherai projects ani ideas implement garna sikne */
+
+/* flex box: give the "display:flex"  to the PARENT---> maybe bigger div or maybe the whole screen */
+top-bottom ---> align item 
+left-right --->justify content 
+ 
